@@ -20,7 +20,7 @@ DOC STRUCTURE
     <head> -- Contains key information about the document that does not appear on the webpage
         <title>I am a title</title>
     </head>
-    <body>
+    <body> -- Contains all the visible content on a webpage
         <p>I am a paragraph</p>
     </body>
 </html>
