@@ -32,3 +32,10 @@ What is a text area?
 
 What is a drop down?
 - Allows a user to choose from predefined options
+
+<label for="journal-category">Journal Category</label>
+<select id="journal-category" name="category">
+    <option value="task">Task</option>
+    <option value="note">Note</option>
+    <option value="idea">Idea</option>
+</select>
