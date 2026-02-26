@@ -9,7 +9,13 @@
     <h1>Create Journal</h1>
 
     <form action="/api/v1/journals" method="post">
-                <input type="text" name="title" placeholder="Enter title">
+            <label for="main-title">Journal Title</label>
+            <input id="main-title"type="text" name="title" placeholder="Enter title">
+
+            <br>
+
+            <label for="journal-entry">Journal Entry</label>
+            <textarea name="journal" id="journal-entry" cols="30" rows="5"></textarea>
     </form>
 </body>
 </html>
