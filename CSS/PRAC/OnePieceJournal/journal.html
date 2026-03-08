@@ -8,5 +8,35 @@
 </head>
 <body>
     <h1>Start your journal journey</h1>
+
+
+    <form action="/api/journals" method="post">
+        <label for="volume-number">Volume Number</label>
+        <input type="number" name="volume-number" placeholder="Enter volume number" required>
+
+        <br>
+
+        <label for="favorite-character">Favorite Character</label>
+        <input id="favorite-character" name="favorite-character" placeholder="Enter your favorite characters name from this volume">
+
+        <br>
+
+        <label for="favorite-moment">Favorite Moment</label>
+        <textarea name="favorite-moment" id="favorite-moment"></textarea>
+
+        <br>
+
+        <label for="overall-thoughts">Overall Thoughts</label>
+        <textarea name="overall-thoughts" id="overall-thoughts" required></textarea>
+
+        <br>
+
+        <label for="final-rating">Final Rating</label>
+        <input id="final-rating" type="number" name="final-rating" min="0" max="5" required>
+
+        <button type="submit">Submit Journal</button>
+    </form>
+
+    <h3><a href="index.html">Return Home</a></h3>
 </body>
 </html>

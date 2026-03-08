@@ -10,6 +10,10 @@ h2 {
     text-align: center;
 
 }
+p {
+    font-weight: 400px;
+    text-align: center;
+}
 
 a {
     text-decoration: none;
@@ -18,4 +22,14 @@ a {
 
 h3 {
     text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+form {
+    text-align: center;
+    line-height: 2.5;
+    letter-spacing: -1px;
 }
