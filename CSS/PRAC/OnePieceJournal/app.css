@@ -2,22 +2,26 @@ h1 {
     text-align: center;
     font-size: 55px;
     line-height: 0.5;
-    font-weight: 500px;
-    letter-spacing: -3px;
+    font-weight: 650px;
+    letter-spacing: 5px;
+    font-family: 'Fjalla One', sans-serif;
     
 }
 h2 {
     text-align: center;
+    font-family: 'Fjalla One', sans-serif;
 
 }
 p {
     font-weight: 400px;
     text-align: center;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 a {
     text-decoration: none;
     text-align: center;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 h3 {

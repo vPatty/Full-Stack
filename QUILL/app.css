@@ -1,8 +1,73 @@
+/* 
+
+---------- TYPOGRAPHY ----------
+
+FONT SIZES
+12px / 16px / 20px / 24px/ 32px / 40px / 48px / 62px
+
+FONT WEIGHTS
+400 / 700
+
+LINE WEIGHTS
+1.2 / 1.5
+
+LETTER SPACING
+0 / -2px
+
+FONT FAMILY
+Poppins
+
+---------- COLORS ----------
+
+PRIMARY
+Base: #339af0 (Sky BLue)
+Tint: #d0ebff (Artic)
+Shade: #1c7ed6 (Deep Sea)
+
+SECONDARY
+Base: #9775fa (Lavender)
+Tint: #e5dbff (Moonlight Iris)
+Shade: #7048e8 (Velvet Night)
+
+TERTIARY
+Base: #ff922b (Pumpkin)
+Tint: #ff38cc (Dawn)
+Shade: #f76707 (Lava)
+
+GREY
+Base: #495057 (Slate) 
+Tint: #f1f3f5 (Pebble)
+Shade: #212529 (Graphite)
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1 {
     font-weight: 700;
     text-align: center;
     line-height: 1.2;
     letter-spacing: -2px;
+    font-size: 62px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
 }
 
 h2 {
@@ -10,22 +75,52 @@ h2 {
     text-align: center;
     line-height: 1.2;
     letter-spacing: -2px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
 }
 h3 {
     font-weight: 700;
     line-height: 1.2;
     letter-spacing: -2px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
+}
+
+h4 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
+}
+
+h5 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
 }
 
 p {
     font-weight: 400;
     line-height: 1.5;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #495057;
 }
 
 a {
     font-weight: 400;
     text-decoration: none;
     line-height: 1.5;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #495057;
 }
 
 ul {
