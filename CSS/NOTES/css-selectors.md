@@ -22,7 +22,7 @@ State Pseudo Classes
 a:link
 - Targets anchor tags that have not yet been visited
 
-a: visited
+a:visited
 - Targets anchor tags that have been visited
 
 Both are specific to anchor tags
