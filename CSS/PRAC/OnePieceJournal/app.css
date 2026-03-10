@@ -1,39 +1,53 @@
-h1 {
+h1, h2, h3 {
     text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
     font-size: 55px;
     line-height: 0.5;
     font-weight: 650px;
-    letter-spacing: 5px;
-    font-family: 'Fjalla One', sans-serif;
-    
+    letter-spacing: 5px;   
 }
-h2 {
+
+p, a {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-
 }
 p {
     font-weight: 400px;
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
 }
 
 a {
     text-decoration: none;
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-}
-
-h3 {
-    text-align: center;
 }
 
 ul {
     list-style: none;
 }
 
-form {
-    text-align: center;
-    line-height: 2.5;
-    letter-spacing: -1px;
+.btn {
+    font-weight: 400;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-primary:link, .btn-primary:visited {
+    color: #339af0;
+}
+
+.btn-primary:hover, .btn-secondary:active {
+    color: #1c7ed6; 
+}
+.btn-secondary:link, .btn-secondary:visited {
+    color: #9775fa; 
+}
+
+.btn-secondary:hover, .btn-secondary:active {
+    color: #7048e8; 
+}
+
+.return-home:hover, .return-home:active {
+    color: #339af0;
 }
