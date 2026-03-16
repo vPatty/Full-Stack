@@ -1,6 +1,6 @@
-.form-login {
-    color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+div {
+    width: 800px;
+    background-color: khaki;
+    text-align: center;
+    padding: 50px;
 }
