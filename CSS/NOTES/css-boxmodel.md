@@ -16,3 +16,16 @@ Block Level sizing guidance
 
 PADDING
 - Padding is the space between the content of an element ad its border to imporve readability and viual design
+
+
+
+Border
+- Creates a visible boundary around an HTML element and can enhanve visual appearance and seperation from other elements
+
+Longhand border properties
+- 
+
+
+Border Radius 
+- Rounds the corners of an elemtns border
+
