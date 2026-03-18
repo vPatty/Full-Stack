@@ -1,15 +1,27 @@
-.btn-filled {
+.btn {
+    font-size: 12px;
     text-decoration: none;
-    background-color: blue;
-    color: white;
-    padding: 20px 40px;
-    border: 10px solid blue;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: black;
 }
 
-.btn-outline {
+a {
     text-decoration: none;
-    background-color: white;
-    color: blue;
-    padding: 20px 40px;
-    border: 10px solid blue;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.btn-primary {
+    background: red;
+    border: 10px;
+}
+
+.btn-secondary {
+    border: 10px;
+    border: solid red;
+    color: red;
 }

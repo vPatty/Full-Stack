@@ -29,3 +29,8 @@ Longhand border properties
 Border Radius 
 - Rounds the corners of an elemtns border
 
+
+
+Box Sizing
+- The box sizing property modifies how the total width and heigh of an element are calculated
+box-sizing: border-box;

@@ -114,7 +114,7 @@ ul {
     border: 2px solid #339af0;
 }
 
-.btn-primary:hover, .btn-secondary:active {
+.btn-primary:hover, .btn-primary:active {
     color: #ffffff; 
     background-color: #1c7ed6;
     border: 2px solid #1c7ed6;
