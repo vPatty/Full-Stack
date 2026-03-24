@@ -1,26 +1,15 @@
-.container-1{
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-    border-radius: 8px;
+#title-main {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: -2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.container-2 {
-    background-color: red;
-    width: 100px;
-    height: 100px;
-    border-radius: 8px;
-}
-
-ol {
-    list-style: square;
-}
 
 ul {
     list-style: none;
-    display: flex;
-    background-color: blueviolet;
-    padding: 50px; 
-    border: 10px solid black;
-    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
 }
