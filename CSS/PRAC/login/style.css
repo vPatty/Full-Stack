@@ -1,0 +1,36 @@
+.login-container {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 25px;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credentials-container {
+    text-align: center;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password {
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.username {
+    padding: 5px;
+    margin-bottom: 25px;
+}
