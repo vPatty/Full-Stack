@@ -48,3 +48,13 @@ p, h2 {
     border-radius: 10px;
     margin-left: 95px;
 }
+
+.div3 {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
+    border: 10px solid red;
