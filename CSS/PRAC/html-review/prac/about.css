@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    /* font-weight: 700; */
+    letter-spacing: -2px;
+}
+
+.heading {
+    text-align: center;
+    padding: 10px;
+}
+
+.head-bold {
+    font-style: oblique;
+}
+
+.early-life-section {
+    /* text-align: center; */
+
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+}
+
+a:hover{
+    color: green;
+}
+
+ul {
+    margin: 0;
+}
+
+.sexy-list {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+    font-size: larger;
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    letter-spacing: -1.5px;
+    background-color: blue;
+}
+
+li {
+    list-style: none;
+}
+
+.sexy {
+    text-align: center;
+}
+
+
