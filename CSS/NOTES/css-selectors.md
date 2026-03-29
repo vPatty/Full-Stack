@@ -32,3 +32,10 @@ a:hover
 
 a:active
 - Targets an element when it is being clicked
+
+
+
+
+The Universal selector
+- Applies styles to all elements
+- Primarily used for resetting default properties and is not typically used for applying specific styling
