@@ -53,3 +53,21 @@ h1{
     font-size: 20px;
     color: blue;
 }
+
+
+Methods for including CSS
+
+Inline CSS
+- Styling applied directly to individual HTML elements
+
+Internal CSS
+- Styling a single HTML document using the style sheet
+
+External CSS
+- Styles are in a seperate CSS file and linked to the HTML documents
+
+ex: index.html
+
+<head>
+    <link rel="stylesheet" href="app.css">
+</head>

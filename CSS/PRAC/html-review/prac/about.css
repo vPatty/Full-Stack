@@ -21,10 +21,6 @@ h1 {
     font-style: oblique;
 }
 
-.early-life-section {
-    /* text-align: center; */
-
-}
 
 a {
     text-decoration: none;
@@ -63,3 +59,42 @@ li {
 }
 
 
+.rhea-imgs {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; 
+    margin: 10px;
+
+}
+
+.riri-imgs {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */       /* Set a specific height for the div */
+
+}
+
+
+.about-section-rhea {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -2px;
+}
+
+.about-section-riri {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: -2px;
+
+}
+
+h1 {
+    letter-spacing: -2px;
+}
+
+img {
+    border: 20px solid black;
+    border-radius: 12px;
+    height: 800px;
+    margin: 10px;
+}
