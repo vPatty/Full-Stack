@@ -98,3 +98,8 @@ img {
     height: 800px;
     margin: 10px;
 }
+
+.word-change {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
