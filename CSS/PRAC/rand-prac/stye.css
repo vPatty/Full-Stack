@@ -1,0 +1,11 @@
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.text-decor {
+    font-weight: 500;
+    text-decoration: overline;
+    font-style: oblique;
+}
+
