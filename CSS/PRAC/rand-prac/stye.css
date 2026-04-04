@@ -1,11 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
 h1 {
     font-weight: 900;
-    text-transform: uppercase;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 4px;
+}
+h2 {
+
 }
 
 .text-decor {
     font-weight: 500;
-    text-decoration: overline;
-    font-style: oblique;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
+ol {
+    list-style: circle;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.anchor {
+    text-align: center;
+    color: green;
+}
