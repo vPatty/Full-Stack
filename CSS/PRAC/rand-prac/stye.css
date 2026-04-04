@@ -6,6 +6,9 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h1, h1 {
+    color: red;
+}
 
 
 h1 {
@@ -13,9 +16,10 @@ h1 {
     text-align: center;
     line-height: 2;
     letter-spacing: 4px;
+    font-size: 64px;
 }
 h2 {
-
+    font-size: 48px;
 }
 
 .text-decor {
@@ -38,4 +42,25 @@ a {
 .anchor {
     text-align: center;
     color: green;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5rem 3rem;
+    border-radius: 8px;
+    font-size: 1.6rem;
+}
+
+.btn-primary:link , .btn-primary:visited {
+    background-color: blue;
+    color: white;
+}
+
+.btn-pri:link, .btn-pri:visited {
+    color: lightblue;
+}
+
+.btn-pri:hover, .btn-pri:active {
+    color: darkblue;
 }
