@@ -1,20 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stye.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>What is <span class="text-decor">going</span> on in here?</h1>
-    <h2>lipsum    </h2>
-
-    <div class="anchor">
-        <a class="btn btn-primary" href="">Register</a>
-    </div>
-
-    <a class="btn-pri" href="">Login</a>
-    
-</body>
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .box {
+        width: 200px;
+        padding: 20px;
+        border: 5px solid black;
+        background: #f7d48b;
+        margin-bottom: 12px;
+      }
+      .content-box { box-sizing: content-box; } /* default */
+      .border-box { box-sizing: border-box; }
+    </style>
+  </head>
+  <body>
+    <div class="box content-box">content-box</div>
+    <div class="box border-box">border-box</div>
+  </body>
 </html>
