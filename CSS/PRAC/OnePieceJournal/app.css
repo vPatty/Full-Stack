@@ -1,65 +1,90 @@
 /* GLOBAL DEFAULT */
+
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Fjalla One', sans-serif;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
     color: #000000;
 }
 
-
-
 h1, h2, h3 {
-    text-align: center;
     font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 h1 {
-    font-size: 55px;
-    line-height: 0.5;
-    font-weight: 650px;
-    letter-spacing: 5px;   
+    font-size: 62px;
 }
 
-p, a {
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
+h2 {
+    font-size: 48px;
 }
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 24px;
+}
+
 p {
-    font-weight: 400px;
+    font-size: 20px;
 }
 
 a {
     text-decoration: none;
+    font-size: 16px;
 }
 
 ul {
     list-style: none;
 }
 
+/* HEAD/TITLESECTION */
+.title-section {
+    text-align: center;
+}
+
+/* NAV SECTION */
+.nav-bar {
+    text-align: center;
+}
+
+
+/* BODY/HISTORY SECTION */
+
+/* COMPONENTS */
 .btn {
-    font-size: 16px;
-    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
 }
 
 .btn-primary:link, .btn-primary:visited {
     color: #ffffff;
-    background-color: #412a1e;
+    background-color: black;
 }
 
 .btn-primary:hover, .btn-secondary:active {
     color: #ffffff;
-    background-color: #3e281d; 
+    background-color: #c8472c; 
 }
+
 .btn-secondary:link, .btn-secondary:visited {
-    /* color: #ffffff;
-    background-color: #58acf4;  */
-    color: #000000;
+    color: #ffffff;
+    background-color: #c8472c;
 }
 
 .btn-secondary:hover, .btn-secondary:active {
-    /* color: #ffffff;
-    background-color: #105edd;  */
-    color: #000000;
+    color: #ffffff;
+    background-color: #c8472c;
 }
 
 .highlight {
@@ -68,20 +93,12 @@ ul {
 
 .highlight-primary {
     background-color: #c8472c;
-}
-
-.highlight-secondary {
-    background-color: #9775fa;
-}
-
-.highlight-tertiary {
-    background-color: #ff922b;
+    padding: 8px;
+    border-radius: 4px;
 }
 
 .return-home:hover, .return-home:active {
     color: #339af0;
 }
 
-.nav-bar {
-    text-align: center;
-}
+
