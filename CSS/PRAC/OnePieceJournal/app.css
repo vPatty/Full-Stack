@@ -2,12 +2,20 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: 'Fjalla One', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     color: #000000;
+}
+
+.container {
+    width: 2200px;
+    margin: 0 auto;
+    
 }
 
 h1, h2, h3 {
