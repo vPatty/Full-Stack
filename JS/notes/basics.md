@@ -19,3 +19,12 @@ Called (operator precedence)
 2,3,4  = Integers
 
 2.2, 2.5 = Floating Point Numbers
+
+
+Way to see what type something is
+You can use: typeof
+Ex: typeof 'hello' = 'string'
+
+
+'hello' + 3
+= 'hello3' - This is called Type Coercion
