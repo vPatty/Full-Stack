@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart Project</title>
+
+  <style>
+    .btn {
+      border: 2px solid black;
+      border-radius: 4px;
+      padding: 5px;
+      display: inline-block;
+      margin-right: 5px;
+      background-color: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <p>Cart Quantity</p>
+
+    <button class="btn" onclick="
+      console.log(`Cart quantity: ${quantity}`);
+    ">Show Quantity</button>
+
+    <button class="btn" onclick="
+      updateCartQuantity(1);
+    ">Add to Cart</button>
+
+    <button class="btn" onclick="
+      updateCartQuantity(-2);
+     ">-2</button>
+
+    <button class="btn" onclick="
+      updateCartQuantity(-3);
+     ">-3</button>
+     
+    <button class="btn" onclick="
+      updateCartQuantity(2);
+    ">+2</button>
+
+    <button class="btn" onclick="
+      updateCartQuantity(3);
+    ">+3</button>
+
+    <button class="btn" onclick="
+      updateCartQuantity(4);
+    ">+4</button>
+
+    <button class="btn" onclick="
+      updateCartQuantity(5);
+    ">+5</button>
+
+    <button class="btn" onclick="
+      updateCartQuantity(-1);
+    ">Remove item from cart</button>
+
+    <button class="btn" onclick="
+    quantity = 0; console.log('Cart was reset...'); console.log(`Cart quantity: ${quantity}`);
+    ">Reset Cart</button>
+
+
+  <script>
+    let quantity = 0;
+
+    function updateCartQuantity(change){
+      if(quantity + change > 10){
+        alert('The cart is full');
+      } else if (quantity + change < 0){
+        alert('Not enough items in the cart');
+      } else {
+        quantity += change;
+        console.log(`Cart quantity: ${quantity}`);
+      }
+
+    }
+
+  </script>
+</body>
+</html>
