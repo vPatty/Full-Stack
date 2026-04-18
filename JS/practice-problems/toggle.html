@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle</title>
+</head>
+<body>
+    <button onclick="handleClick()">Toggle Status</button>
+
+    <script>
+      let isOn = true;
+
+      function toggleStatus(){
+        let message;
+
+        if (isOn){
+          message = 'System is ON';
+        } else {
+          message = 'System is OFF';
+        }
+
+        isOn = !isOn;
+
+        return message;
+      }
+
+      function handleClick(){
+        console.log(toggleStatus());
+      }
+    </script>
+</body>
+</html>

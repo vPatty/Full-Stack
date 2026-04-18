@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Check</title>
+
+  <style>
+    .btn {
+      padding: 5px;
+      border-radius: 4px;
+      background-color: lightblue;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="btn" onclick="handleClick()">Check Age</button>
+  
+  <script>
+    function checkAge(){
+      let age = 18;
+      let isAdult = age >= 18;
+
+      if(isAdult){
+        return 'You are an adult'
+      } else {
+        return 'You are not an adult'
+      }
+    }
+
+    function handleClick(){
+      console.log(checkAge());
+    }
+  </script>
+</body>
+</html>
