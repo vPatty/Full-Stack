@@ -1,0 +1,28 @@
+.cart-button {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 5px 40px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.request-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.schedule-btn {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
