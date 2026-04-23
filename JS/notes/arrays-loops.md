@@ -34,3 +34,9 @@ Non-Standard Loop - use while
 
 Accumulator Pattern
 1. Create a variable to store the result
+
+
+
+Break, breaks the loop and exits the loop early
+
+continue - skips 1 iteration
