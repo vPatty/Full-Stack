@@ -8,20 +8,30 @@
 </head>
 <body>
   <div class="container">
-    <h1>Smart Notes</h1>
+    <header class="header-section">
+      <h1>Smart Notes For Manga</h1>
+    </header>
+    
+    <main>
+      <form action="">
+          <div class="input-container">
+          <textarea class="input-val" name="notes" id="notes"></textarea>
+        </div>
 
-    <div class="input-container">
-      <textarea class="input-val" name="notes" id="notes"></textarea>
-    </div>
+        <div class="filter-container">
+          <input class="date-val btn" type="date" required>
+          <input class="chap-selector num-val" type="number" placeholder="number" name="chapter-num" id="chapter-num" min="0", max="200" required>
+          <button class="btn" onclick="addNote();">Add Note</button>
 
-    <div class="filter-container">
-      <input class="date-val btn" type="date">
-      <button class="btn" onclick="addNote();">Add Note</button>
-    </div>
+        </div>
 
-    <h2>Notes</h2>
-    <div class="notes-container">
-    </div>
+        <h2>Notes</h2>
+        <div class="notes-container">
+        </div>
+      </form>
+      
+    </main>
+    
   </div>
 
   

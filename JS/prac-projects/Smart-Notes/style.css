@@ -7,6 +7,11 @@ body{
   font-family: 'Arial', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.header-section{
+  margin-top: 25px;
+
+}
+
 .input-container, .filter-container{
   margin-left: 25px;
 }
@@ -39,5 +44,32 @@ textarea{
 
 .notes-container{
   padding: 25px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  column-gap: 10px;
+  row-gap: 20px;
+  align-items: center;
+  
 }
+
+.note-card{
+  background-color: grey;
+  display: inline-block;
+  margin-right: 15px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: white;
+  width: 125px;
+  height: 100px;
+
+}
+
+.chap-selector{
+  border: non;
+}
+
+.filter-container{
+  display: inline-block;
+}
+
 

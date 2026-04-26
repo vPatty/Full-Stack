@@ -1,6 +1,7 @@
 const notesList = JSON.parse(localStorage.getItem('notesList')) ||[{
   note: 'ex',
-  date: '12-22-2026'
+  date: '12-22-2026',
+  chapter: '6'
 }];
 
 renderNotes();
@@ -13,10 +14,15 @@ function renderNotes(){
     const notesObject = notesList[i];
     const note = notesObject.note;
     const date = notesObject.date;
+    const chapter = notesObject.chapter;
     const html = `
-    <div>Note Date</div>
-    <div>${note} ${date}</div>
-    
+    <div class="note-card">
+      <div>${note} ${date} ${chapter}</div>
+      <button class="btn" onclick="
+        notesList.splice(${i}, 1);
+        renderNotes();
+      ">Delete</button>
+    </div>
     `;
     addedHTML += html;
   }
@@ -27,8 +33,10 @@ function renderNotes(){
 function addNote(){
   const noteElement = document.querySelector('.input-val');
   const dateElement = document.querySelector('.date-val');
+  const chapterElement = document.querySelector('.num-val');
   const note = noteElement.value;
   const date = dateElement.value;
+  const chapter = chapterElement.value;
 
   if(note === '' || date === ''){
     return;
@@ -36,7 +44,8 @@ function addNote(){
 
   notesList.push({
     note: note,
-    date: date
+    date: date,
+    chapter: chapter
   });
 
   noteElement.value = '';

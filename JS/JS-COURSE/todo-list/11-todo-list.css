@@ -9,6 +9,13 @@ body{
   font-family: Arial;
 }
 
+.header-section{
+  text-align: left;
+}
+
+.title-card{
+  margin-top: 250px;
+}
 .input-val {
   padding: 5px 8px;
   font-weight: bold;
