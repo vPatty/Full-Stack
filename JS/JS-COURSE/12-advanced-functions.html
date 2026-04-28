@@ -49,11 +49,31 @@
       //   console.log('hello4');
       // });
 
-      setTimeout(function(){
-        console.log('timeout');
-      }, 3000);
+      // setTimeout(function(){
+      //   console.log('timeout');
+      //   console.log('timeout2');
+      // }, 3000);
 
-      console.log('next line');
+      // console.log('next line');
+
+      // setInterval(function() {
+      //   console.log('interval');
+      // }, 3000);
+
+      // console.log('next line 2');
+
+
+      [
+        'one',
+        'two',
+        'three'
+      ].forEach(function(value, index) {
+        if(value === 'three'){
+          return; //same as continue in a for loop, we have to use this becuase forEach doesnt have continue
+        }
+        console.log(index);
+        console.log(value);
+      });
     </script>
   </body>
 </html>

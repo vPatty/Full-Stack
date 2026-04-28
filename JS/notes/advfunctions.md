@@ -21,3 +21,7 @@ Asynchronous Code
 
 Synchronous Code
 - Computer will wait for one line to finish before going to the next one
+
+
+setInterval
+- Similar to setTimeout but will keep running the function every _ milliseconds
