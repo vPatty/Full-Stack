@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="container">
+    <div class="login">
+      <input class="input-val" type="text" placeholder="enter username" required>
+      <input type="password" required placeholder="enter password">
+    </div>
+    <button onclick="
+      displayUser();
+
+    " type="submit" class="submit-btn">Login</button>
+    <p class="display"></p>
+  </div>
+  
+  <script>
+    function displayUser(){
+      const loginElement = document.querySelector('.input-val');
+      const username = loginElement.value;
+
+      document.querySelector('.display').innerHTML =`
+      Welcome ${username}!
+      `;
+      
+      console.log(username);
+    }
+  </script>
+</body>
+</html>
