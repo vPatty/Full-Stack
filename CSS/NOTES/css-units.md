@@ -37,3 +37,6 @@ BASED ON ROOT
 EMS
 - A relative unit that is more context specific compared to REMS
 - IT IS BASED ON THE PARENT ELEMENNTS FONT SIZE
+
+VH and VW
+- View Height and View Width are units that are a percentage of the browsers visible window
