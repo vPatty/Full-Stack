@@ -245,6 +245,8 @@ span {
 /* ----- NAV BAR ----- */
 .navbar {
     height: var(--nav-height);
+    display: flex;
+    justify-content: space-between;
 }
 
 /* ----- HERO SECTION ----- */
@@ -304,7 +306,15 @@ span {
 /* ----- FOOTER ----- */
 
 .footer-section {
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logos, .footer-links {
+    display: flex;
+    gap: 10px;
 }
 
 .social-icons {

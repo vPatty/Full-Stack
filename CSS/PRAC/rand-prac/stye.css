@@ -5,6 +5,8 @@
     color: white;
     font-size: 30px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .flex-item-1 {
