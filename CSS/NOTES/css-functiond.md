@@ -8,3 +8,13 @@ How to define
 How to use
 
 background-clor: var(--primary);
+
+
+CSS variables are set on the root pseudo-class
+
+:root {
+    --primary: #339af0;
+}
+
+CSS Calculations
+- Perfomr dynamic calculations when setting values
