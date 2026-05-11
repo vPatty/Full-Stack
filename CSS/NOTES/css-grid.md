@@ -24,3 +24,23 @@ display: grid;
 CSS Grid can be used for complex two-dimensional layouts
 Grid is also commonly used for major sections
 Grid is also commonly used for UI elements with consistent spacing in a one-dimensional row or column
+
+CSS Grid vs. Flexbox
+
+Flexbox
+One dimensional
+
+navigation bars
+footers
+components
+  - buttons, callouts, inside cards
+hero sections
+forms
+
+
+Grid
+Two dimensional
+
+complex 2D layouts
+features
+cards
