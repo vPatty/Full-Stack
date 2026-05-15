@@ -1,9 +1,26 @@
-let yearBorn = 2002;
+const names = ['jessica', 'patrick', 'nicole'];
+const product = 
+[
+   {name: 'iphone', price: 1099.99, releaseDate: '12/25/2026'},
+   {name: 'basketball', price: 25.99, releaseDate: '1/4/2027'}
+];
 
+function addToArray() {
+    const nameElement = document.querySelector('.name');
+    const name = nameElement.value;
 
-function calcAge (a) {
-    age = 2026 - a;
-    return age;
+    names.push(name);
+
+    nameElement.value = '';
+
+    console.log(names);
 }
 
-console.log(2+2);
+console.log(product);
+
+names.push('lebron');
+
+names.pop();
+
+console.log(names);
+
