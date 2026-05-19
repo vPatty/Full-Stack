@@ -63,7 +63,7 @@ Function Scope
 
 
 Closure
-- A function that "remebers" the environment in which it was created
+- A function that "remembers" the environment in which it was created
 
 function init() {
   var name = "Mozilla"; //name is a local var created by init
