@@ -90,7 +90,11 @@ function sayGoodbye() {
 
 //sayGoodbye is passed as the callback argument
 greet('Alice', sayGoodbye);
-d
+
+
+High Order Functions
+1. Accepts one or more functions as arguments('callbacks')
+2. Returns a function as its result
 
 
 

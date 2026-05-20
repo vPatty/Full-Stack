@@ -48,3 +48,26 @@ null = intentionally want something to be empty
 
 
 Objects are references
+
+
+
+const obj1 = {
+  name: 'Patrick',
+  age: 25,
+  func: function () {
+    return 'Hello';
+  },
+  birthdate: '12/25/2025',
+  hobbies: ['basketball', 'guitar', 'video games'],
+  career: [
+    {company: 'Amazon',
+    role: 'CEO',
+    salary: 25000}
+  ]
+};
+
+console.log(obj1.career[0].role);
+
+
+
+
