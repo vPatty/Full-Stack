@@ -70,4 +70,42 @@ console.log(obj1.career[0].role);
 
 
 
+const vehicle = {
+  wheels: 4,
+  engine: function() {
+    return 'Vroom!!'
+  }
+};
 
+const car = Object.create(vehicle);
+
+car.doors = 4;
+car.engine = () => {return 'Whoosh!!!'};
+
+console.log(car.engine());
+
+const tesla = Object.create(car);
+console.log(tesla.engine());
+
+tesla.engine = () => {return 'Shoooooooooshhhh'};
+console.log(tesla.engine());
+
+
+const band = {
+  vocals: 'Robert Plant',
+  guitar: 'Jimmy Page',
+  bass: 'John Paul Jones',
+  drums: 'John Bonham'
+};
+
+delete band.drums;
+console.log(band.hasOwnProperty('drums'))
+
+console.log(Object.keys(band));
+console.log(Object.values(band));
+
+for(let job in band) {
+  console.log(`On ${job}, it's ${band[job]}!`);
+}
+
+a
