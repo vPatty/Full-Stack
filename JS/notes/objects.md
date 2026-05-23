@@ -108,4 +108,18 @@ for(let job in band) {
   console.log(`On ${job}, it's ${band[job]}!`);
 }
 
-a
+const band = {
+  vocals: 'Robert Plant',
+  guitar: 'Jimmy Page',
+  bass: 'John Paul Jones',
+  drums: 'John Bonham'
+};
+//destructuring
+
+//assigning myVariable to guitar in bad which is Jimmy Page
+const {guitar: myVariable, bass: myBass} = band;
+const {vocals, guitar, bass, drums} = band;
+console.log(myVariable); // outputs Jimmy Page
+console.log(myBass);
+console.log(vocals);
+
