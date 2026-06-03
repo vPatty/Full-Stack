@@ -98,3 +98,19 @@ High Order Functions
 
 
 
+Pure Function
+- Function that alwasy produces the same output for the same input and has no observable side effects
+function add(a,b) {
+  return a + b;
+}
+
+IIFE(Immediately Invoked Function Expression)
+- JS design pattern where a function is executed as soons as it is defined
+(function () {
+  console.log('I run immediately);
+})();
+
+
+
+Recursion
+- Function calls itself
